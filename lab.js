@@ -7,9 +7,16 @@
 */
 
 //CODE HERE
+// let lovesCode = true;
+// if(lovesCode === true){
+//   console.log("I love to code")
+// } else {
+//   console.log("Coding has its challenges.")
+  
+// }
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29;
+var amysAge = 39;
 var brittanisAge = 34;
 var amysBirthYear = 1991;
 var brittanisBirthYear = 1986;
@@ -21,6 +28,13 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+// if(amysAge > brittanisAge){
+//   console.log(`amy is older`)
+// }else if(amysAge < brittanisAge){
+//   console.log('brittan is older')
+// }else{
+//   console.log("they are the same age.")
+// }
 
 ////////// PROBLEM 3 //////////
 
@@ -30,9 +44,15 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
+// if(amysBirthYear === brittanisBirthYear){
+//   console.log("Amy & Brittani were born in the same year ")
+// }else{
+//   console.log("Amy & Brittani were not born in the same year")
+// }
+
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
+let temperature = 82;
 let rain = true;
 
 /*
@@ -41,6 +61,16 @@ let rain = true;
 */
 
 //CODE HERE
+// if(temperature >= 80 && rain){
+//   console.log("one should wear a t-shirt and take an umbrella.")
+// }else if(temperature > 60 && temperature < 80 && rain){
+//   console.log("one should wear a rain-jacket.")
+// }else if(temperature < 60 && rain){
+//   console.log("one should wear a jacket and carry an umbrella.")
+// }else{
+//   console.log("get this man a shirt")
+
+// }
 
 ////////// PROBLEM 5 //////////
 
@@ -49,6 +79,10 @@ let rain = true;
 */
 
 //CODE HERE
+// let hello = "hello"
+// for(i = 0; i < 10; i++){
+//   console.log(hello)
+// }
 
 ////////// PROBLEM 6 //////////
 
@@ -58,6 +92,10 @@ let rain = true;
 
 //CODE HERE
 
+// for(let i = 0; i < 11; i++){
+//   console.log(i)
+// }
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -65,6 +103,10 @@ let rain = true;
 */
 
 //CODE HERE
+
+// for(let i = 10; i > 0; i--){
+//   console.log(i)
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -77,6 +119,11 @@ let passingScore = 7;
 */
 
 //CODE HERE
+while(score < passingScore){
+  console.log(score, "Your score is not high enough")
+score++
+}
+
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -88,6 +135,7 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
