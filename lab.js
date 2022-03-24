@@ -170,11 +170,11 @@ let z = 5;
 
 let u = 0;
 
-while(u > 4){
-  // for(let i = u; i > 0; i++){
-  //   console.log(i)
-  // }
+while(u <= 4){
+  for(let i = 1; i <= u; i++){
+    console.log(i)
+  }
   u++
-  console.log(u)
+  //console.log(u)
 }
 
